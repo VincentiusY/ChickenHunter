@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class EndStage : MonoBehaviour
 {
+    public int nextLevel;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +22,9 @@ public class EndStage : MonoBehaviour
     {
 		if(other.CompareTag("Player"))
 		{
-			//Debug.Log("You Win");
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            //Debug.Log("You Win");
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
+            Application.LoadLevel(nextLevel);
 		}
     }
 }
