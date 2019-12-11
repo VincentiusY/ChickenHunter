@@ -17403,8 +17403,8 @@ GameObject:
   m_Component:
   - component: {fileID: 59946009}
   - component: {fileID: 59946010}
-  - component: {fileID: 59946012}
   - component: {fileID: 59946011}
+  - component: {fileID: 59946012}
   m_Layer: 0
   m_Name: house (1)
   m_TagString: Untagged
@@ -17513,6 +17513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a7b6c03747de24d88c6c73d2e69588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextStage: MainStage2
 --- !u!1 &70701594
 GameObject:
   m_ObjectHideFlags: 0
